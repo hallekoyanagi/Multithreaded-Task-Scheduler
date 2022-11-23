@@ -15,6 +15,7 @@ to compile and
 where customer.txt is the customer file to be evaluated
 
 ## Known Issues:
-Priority levels are rated out of 5, 5 being the highest priority\
+Priority levels are rated out of 5, 5 being the highest priority
+
 1. All clerks do not usually run. Often only two to three our of four will run in unison. It seems the clerk threads get held up waiting for signals from customers after sending a signal that was never recieved. **Priority = 5**
 2. Due to issue 1, the program never terminates as some clerks never terminate. Therefore, the final customer to be served will print averages at the end of the thread and terminate the program. This is only a temporary fix for issue 1. **Priority = 2**
