@@ -1,9 +1,0 @@
-After extracting files, in terminal use 
-
-make ACS
-
-to compile and
-
-./ACS customer.txt
-
-where customer.txt is the customer file to be evaluated
